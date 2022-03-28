@@ -1,0 +1,540 @@
+# Reading D:/edatools/questasim/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.4c win64 Jul 20 2015
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do {s6base_tb.fdo}
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:10:21 on Oct 30,2019
+# vlog -reportprogress 300 ../../src/verilog-IPs/MODSCALE.v 
+# -- Compiling module MODSCALE
+# 
+# Top level modules:
+# 	MODSCALE
+# End time: 19:10:21 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:10:21 on Oct 30,2019
+# vlog -reportprogress 300 ../../src/verilog-IPs/ITERCOUNTER.v 
+# -- Compiling module ITERCOUNTER
+# 
+# Top level modules:
+# 	ITERCOUNTER
+# End time: 19:10:21 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:10:21 on Oct 30,2019
+# vlog -reportprogress 300 ../../src/verilog-IPs/ATAN_ROM.v 
+# -- Compiling module ATAN_ROM
+# 
+# Top level modules:
+# 	ATAN_ROM
+# End time: 19:10:21 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:10:21 on Oct 30,2019
+# vlog -reportprogress 300 ../../src/verilog-rtl/rec2pol_control.v 
+# -- Compiling module rec2pol_control
+# 
+# Top level modules:
+# 	rec2pol_control
+# End time: 19:10:21 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:10:21 on Oct 30,2019
+# vlog -reportprogress 300 ../../src/verilog-rtl/rec2pol.v 
+# -- Compiling module rec2pol
+# 
+# Top level modules:
+# 	rec2pol
+# End time: 19:10:21 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:10:21 on Oct 30,2019
+# vlog -reportprogress 300 ../../src/verilog-rtl/uart.v 
+# -- Compiling module uart
+# 
+# Top level modules:
+# 	uart
+# End time: 19:10:21 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:10:21 on Oct 30,2019
+# vlog -reportprogress 300 ../../src/verilog-rtl/rec2pol_all.v 
+# -- Compiling module rec2pol_all
+# 
+# Top level modules:
+# 	rec2pol_all
+# End time: 19:10:21 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:10:21 on Oct 30,2019
+# vlog -reportprogress 300 ../../src/verilog-rtl/ioports.v 
+# -- Compiling module ioports
+# 
+# Top level modules:
+# 	ioports
+# End time: 19:10:21 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:10:21 on Oct 30,2019
+# vlog -reportprogress 300 ../../src/verilog-tb/uart_sim.v 
+# -- Compiling module uart_sim
+# 
+# Top level modules:
+# 	uart_sim
+# End time: 19:10:21 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:10:21 on Oct 30,2019
+# vlog -reportprogress 300 ../../src/verilog-rtl/s6base_top.v 
+# -- Compiling module s6base_top
+# 
+# Top level modules:
+# 	s6base_top
+# End time: 19:10:21 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:10:21 on Oct 30,2019
+# vlog -reportprogress 300 ../../src/verilog-tb/s6base_tb.v 
+# -- Compiling module s6base_tb
+# 
+# Top level modules:
+# 	s6base_tb
+# End time: 19:10:22 on Oct 30,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:10:22 on Oct 30,2019
+# vlog -reportprogress 300 D:/edatools/xilinx/14.6/ISE_DS/ISE/verilog/src/glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 19:10:22 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work work.s6base_tb glbl 
+# Start time: 19:10:22 on Oct 30,2019
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.s6base_tb(fast)
+# Loading work.s6base_top(fast)
+# Loading work.uart(fast)
+# Loading work.ioports(fast)
+# Loading work.rec2pol_all(fast)
+# Loading work.rec2pol(fast)
+# Loading work.ATAN_ROM(fast)
+# Loading work.ITERCOUNTER(fast)
+# Loading work.MODSCALE(fast)
+# Loading work.rec2pol_control(fast)
+# Loading work.uart_sim(fast)
+# Loading work.glbl(fast)
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+#   303379748        9748
+# -1064739199       -9199
+# -2071669239       -9239
+# -1309649309       -9309
+#   112818957        8957
+#  1189058957        8957
+# -1295874971       -4971
+# -1992863214       -3214
+#    15983361        3361
+#   114806029        6029
+# Initial verification...
+# Xi=100.000000, Yi = 100.000000, Mod=141.421616  Angle=45.000015 drg  (Exptd: Mod=141.421356, Angle=45.000000 drg)
+# Xi=1000.000000, Yi = 100.000000, Mod=1004.989487  Angle=5.710591 drg  (Exptd: Mod=1004.987562, Angle=5.710593 drg)
+# Xi=100.000000, Yi = 1000.000000, Mod=1004.989410  Angle=84.289409 drg  (Exptd: Mod=1004.987562, Angle=84.289407 drg)
+# Xi=100.000000, Yi = 100.000000, Mod=141.421616  Angle=45.000015 drg  (Exptd: Mod=141.421356, Angle=45.000000 drg)
+# Passed initial verification.
+# Simulating         100 random integers...
+# Xi=5139.943207, Yi = 7821.801712, Mod=9359.482605  Angle=56.689870 drg  (Exptd: Mod=9359.465700, Angle=56.689870 drg)
+# Xi=420.343460, Yi = 7965.966980, Mod=7977.063934  Angle=86.979451 drg  (Exptd: Mod=7977.049489, Angle=86.979451 drg)
+# Xi=1997.913956, Yi = -7368.856354, Mod=7634.914200  Angle=-74.830126 drg  (Exptd: Mod=7634.900401, Angle=-74.830126 drg)
+# Xi=7432.481369, Yi = -988.177094, Mod=7497.898117  Angle=-7.573280 drg  (Exptd: Mod=7497.884586, Angle=-7.573280 drg)
+# Xi=9359.968338, Yi = -7453.552872, Mod=11965.156738  Angle=-38.531097 drg  (Exptd: Mod=11965.135089, Angle=-38.531097 drg)
+# Xi=413.163788, Yi = 8412.857651, Mod=8423.012222  Angle=87.188407 drg  (Exptd: Mod=8422.996983, Angle=87.188406 drg)
+# Xi=1024.413849, Yi = -6281.410919, Mod=6364.408310  Angle=-80.737372 drg  (Exptd: Mod=6364.396819, Angle=-80.737373 drg)
+# Xi=3071.519897, Yi = -7477.692307, Mod=8083.956558  Angle=-67.669214 drg  (Exptd: Mod=8083.941904, Angle=-67.669214 drg)
+# Xi=1864.286560, Yi = -8561.840866, Mod=8762.474594  Angle=-77.715950 drg  (Exptd: Mod=8762.458753, Angle=-77.715950 drg)
+# Xi=6964.655563, Yi = -9800.850021, Mod=12023.460800  Angle=-54.601732 drg  (Exptd: Mod=12023.439119, Angle=-54.601732 drg)
+# Xi=9984.615677, Yi = 1395.527496, Mod=10081.687164  Angle=7.956560 drg  (Exptd: Mod=10081.668870, Angle=7.956560 drg)
+# passed 10... 
+# Xi=6324.865234, Yi = 4196.129395, Mod=7590.232620  Angle=33.561640 drg  (Exptd: Mod=7590.218846, Angle=33.561640 drg)
+# Xi=1880.272125, Yi = -2595.200729, Mod=3204.766357  Angle=-54.075958 drg  (Exptd: Mod=3204.760536, Angle=-54.075958 drg)
+# Xi=3535.755524, Yi = -332.280960, Mod=3551.341034  Angle=-5.368737 drg  (Exptd: Mod=3551.334645, Angle=-5.368738 drg)
+# Xi=1043.781052, Yi = -2104.162796, Mod=2348.829559  Angle=-63.616047 drg  (Exptd: Mod=2348.825229, Angle=-63.616047 drg)
+# Xi=3727.864914, Yi = -5465.832687, Mod=6616.076050  Angle=-55.704817 drg  (Exptd: Mod=6616.064070, Angle=-55.704817 drg)
+# Xi=2488.710907, Yi = -409.755157, Mod=2522.222122  Angle=-9.349613 drg  (Exptd: Mod=2522.217530, Angle=-9.349613 drg)
+# Xi=3839.910599, Yi = -6202.551529, Mod=7294.981247  Angle=-58.238945 drg  (Exptd: Mod=7294.968052, Angle=-58.238945 drg)
+# Xi=4484.285690, Yi = 1289.394684, Mod=4665.987137  Angle=16.041862 drg  (Exptd: Mod=4665.978654, Angle=16.041862 drg)
+# Xi=6796.957855, Yi = -5038.702209, Mod=8460.934647  Angle=-36.550179 drg  (Exptd: Mod=8460.919338, Angle=-36.550179 drg)
+# Xi=1080.741974, Yi = 7710.381012, Mod=7785.768921  Angle=82.020998 drg  (Exptd: Mod=7785.754849, Angle=82.020998 drg)
+# passed 20... 
+# Xi=8388.700211, Yi = -5044.793579, Mod=9788.798706  Angle=-31.021845 drg  (Exptd: Mod=9788.781001, Angle=-31.021845 drg)
+# Xi=5392.951050, Yi = -5221.927597, Mod=7506.840363  Angle=-44.076949 drg  (Exptd: Mod=7506.826817, Angle=-44.076949 drg)
+# Xi=149.054367, Yi = 3298.397308, Mod=3301.769485  Angle=87.412568 drg  (Exptd: Mod=3301.763469, Angle=87.412568 drg)
+# Xi=5419.975677, Yi = 2293.076874, Mod=5885.105225  Angle=22.932192 drg  (Exptd: Mod=5885.094553, Angle=22.932192 drg)
+# Xi=8586.989319, Yi = 5391.863922, Mod=10139.475052  Angle=32.125158 drg  (Exptd: Mod=10139.456697, Angle=32.125158 drg)
+# Xi=1272.398270, Yi = -8280.256088, Mod=8377.463318  Angle=-81.263891 drg  (Exptd: Mod=8377.448194, Angle=-81.263891 drg)
+# Xi=7138.255936, Yi = 226.333237, Mod=7141.856140  Angle=1.816073 drg  (Exptd: Mod=7141.843217, Angle=1.816073 drg)
+# Xi=5139.624100, Yi = 7430.200104, Mod=9034.594864  Angle=55.327583 drg  (Exptd: Mod=9034.578544, Angle=55.327583 drg)
+# Xi=6604.802765, Yi = 2730.293289, Mod=7146.894852  Angle=22.459222 drg  (Exptd: Mod=7146.881908, Angle=22.459222 drg)
+# Xi=937.609146, Yi = 7804.296280, Mod=7860.430954  Angle=83.149312 drg  (Exptd: Mod=7860.416741, Angle=83.149312 drg)
+# passed 30... 
+# Xi=2579.028839, Yi = 9781.981628, Mod=10116.270264  Angle=75.230020 drg  (Exptd: Mod=10116.251990, Angle=75.230020 drg)
+# Xi=385.334457, Yi = 8361.631088, Mod=8370.520370  Angle=87.361468 drg  (Exptd: Mod=8370.505188, Angle=87.361468 drg)
+# Xi=1853.663940, Yi = -9266.622208, Mod=9450.221191  Angle=-78.688049 drg  (Exptd: Mod=9450.204079, Angle=-78.688049 drg)
+# Xi=2347.661636, Yi = -866.420471, Mod=2502.443359  Angle=-20.256925 drg  (Exptd: Mod=2502.438729, Angle=-20.256925 drg)
+# Xi=1044.248611, Yi = 7630.216934, Mod=7701.355774  Angle=82.207084 drg  (Exptd: Mod=7701.341807, Angle=82.207084 drg)
+# Xi=3377.803574, Yi = -6108.754639, Mod=6980.445358  Angle=-61.059833 drg  (Exptd: Mod=6980.432667, Angle=-61.059832 drg)
+# Xi=5121.246719, Yi = -2328.014389, Mod=5625.560760  Angle=-24.445577 drg  (Exptd: Mod=5625.550547, Angle=-24.445577 drg)
+# Xi=9233.185883, Yi = 1565.496277, Mod=9364.978195  Angle=9.623043 drg  (Exptd: Mod=9364.961299, Angle=9.623043 drg)
+# Xi=7891.192352, Yi = 5687.928833, Mod=9727.476196  Angle=35.783860 drg  (Exptd: Mod=9727.458617, Angle=35.783860 drg)
+# Xi=7533.646622, Yi = 7922.926712, Mod=10932.933319  Angle=46.442712 drg  (Exptd: Mod=10932.913569, Angle=46.442713 drg)
+# passed 40... 
+# Xi=2316.855743, Yi = -6634.998077, Mod=7027.887222  Angle=-70.751457 drg  (Exptd: Mod=7027.874502, Angle=-70.751457 drg)
+# Xi=4053.505569, Yi = 7385.903214, Mod=8425.124939  Angle=61.241293 drg  (Exptd: Mod=8425.109713, Angle=61.241293 drg)
+# Xi=4050.559067, Yi = -5652.035843, Mod=6953.611511  Angle=-54.372539 drg  (Exptd: Mod=6953.598919, Angle=-54.372539 drg)
+# Xi=7113.185623, Yi = -7387.466919, Mod=10255.362335  Angle=-46.083626 drg  (Exptd: Mod=10255.343836, Angle=-46.083626 drg)
+# Xi=1738.349045, Yi = 9355.294083, Mod=9515.446014  Angle=79.473667 drg  (Exptd: Mod=9515.428775, Angle=79.473667 drg)
+# Xi=4589.319351, Yi = 5388.684235, Mod=7078.131897  Angle=49.580338 drg  (Exptd: Mod=7078.119093, Angle=49.580338 drg)
+# Xi=1285.388062, Yi = -5552.779205, Mod=5699.622543  Angle=-76.966423 drg  (Exptd: Mod=5699.612212, Angle=-76.966423 drg)
+# Xi=4565.950958, Yi = -2752.052307, Mod=5331.210236  Angle=-31.078784 drg  (Exptd: Mod=5331.200620, Angle=-31.078784 drg)
+# Xi=2053.601471, Yi = -7778.265045, Mod=8044.806961  Angle=-75.210362 drg  (Exptd: Mod=8044.792484, Angle=-75.210362 drg)
+# Xi=4742.091599, Yi = -1892.294388, Mod=5105.713058  Angle=-21.754083 drg  (Exptd: Mod=5105.703750, Angle=-21.754082 drg)
+# passed 50... 
+# Xi=6726.343033, Yi = -9773.426956, Mod=11864.403625  Angle=-55.463175 drg  (Exptd: Mod=11864.382203, Angle=-55.463175 drg)
+# Xi=519.662613, Yi = 8745.051819, Mod=8760.494186  Angle=86.599277 drg  (Exptd: Mod=8760.478329, Angle=86.599277 drg)
+# Xi=1736.992050, Yi = -6756.785965, Mod=6976.494385  Angle=-75.582943 drg  (Exptd: Mod=6976.481775, Angle=-75.582943 drg)
+# Xi=3318.894928, Yi = 1560.856842, Mod=3667.613174  Angle=25.187327 drg  (Exptd: Mod=3667.606525, Angle=25.187327 drg)
+# Xi=5327.754532, Yi = -2429.113571, Mod=5855.397980  Angle=-24.509937 drg  (Exptd: Mod=5855.387356, Angle=-24.509937 drg)
+# Xi=4780.574799, Yi = -9808.287521, Mod=10911.316589  Angle=-64.015323 drg  (Exptd: Mod=10911.296876, Angle=-64.015323 drg)
+# Xi=9589.114426, Yi = -4161.418472, Mod=10453.177200  Angle=-23.459550 drg  (Exptd: Mod=10453.158335, Angle=-23.459550 drg)
+# Xi=5601.099503, Yi = 8753.997131, Mod=10392.553619  Angle=57.387531 drg  (Exptd: Mod=10392.534889, Angle=57.387530 drg)
+# Xi=6027.949951, Yi = 5385.043610, Mod=8083.013733  Angle=41.775874 drg  (Exptd: Mod=8082.999152, Angle=41.775874 drg)
+# Xi=2006.678391, Yi = 1903.808807, Mod=2766.093643  Angle=43.493120 drg  (Exptd: Mod=2766.088599, Angle=43.493120 drg)
+# passed 60... 
+# Xi=8253.679138, Yi = -2961.263275, Mod=8768.841263  Angle=-19.737022 drg  (Exptd: Mod=8768.825435, Angle=-19.737022 drg)
+# Xi=288.550827, Yi = -7694.989212, Mod=7700.411377  Angle=-87.852498 drg  (Exptd: Mod=7700.397428, Angle=-87.852498 drg)
+# Xi=1022.927094, Yi = 105.911346, Mod=1028.397339  Angle=5.911202 drg  (Exptd: Mod=1028.395377, Angle=5.911201 drg)
+# Xi=9494.537491, Yi = -1438.796722, Mod=9602.953308  Angle=-8.617008 drg  (Exptd: Mod=9602.935914, Angle=-8.617008 drg)
+# Xi=3407.725433, Yi = -5585.460083, Mod=6542.943680  Angle=-58.612363 drg  (Exptd: Mod=6542.931833, Angle=-58.612362 drg)
+# Xi=5569.529190, Yi = -9172.231567, Mod=10730.792297  Angle=-58.733191 drg  (Exptd: Mod=10730.772914, Angle=-58.733191 drg)
+# Xi=9060.748352, Yi = 8886.365524, Mod=12691.147858  Angle=44.443304 drg  (Exptd: Mod=12691.124967, Angle=44.443304 drg)
+# Xi=2192.828064, Yi = -1320.209579, Mod=2559.584351  Angle=-31.050377 drg  (Exptd: Mod=2559.579702, Angle=-31.050378 drg)
+# Xi=8107.413498, Yi = -2787.131638, Mod=8573.127930  Angle=-18.971724 drg  (Exptd: Mod=8573.112410, Angle=-18.971724 drg)
+# Xi=7824.718155, Yi = -8779.849899, Mod=11760.632538  Angle=-48.292153 drg  (Exptd: Mod=11760.611313, Angle=-48.292153 drg)
+# passed 70... 
+# Xi=7594.115387, Yi = 5915.288239, Mod=9626.087372  Angle=37.916113 drg  (Exptd: Mod=9626.069990, Angle=37.916113 drg)
+# Xi=3319.178558, Yi = 9091.443680, Mod=9678.410645  Angle=69.943460 drg  (Exptd: Mod=9678.393177, Angle=69.943460 drg)
+# Xi=3800.897369, Yi = 628.605530, Mod=3852.534195  Angle=9.390772 drg  (Exptd: Mod=3852.527187, Angle=9.390772 drg)
+# Xi=1698.382675, Yi = 3464.028946, Mod=3857.985825  Angle=63.881696 drg  (Exptd: Mod=3857.978778, Angle=63.881696 drg)
+# Xi=9617.270691, Yi = 7409.552856, Mod=12140.588959  Angle=37.612180 drg  (Exptd: Mod=12140.567082, Angle=37.612180 drg)
+# Xi=5244.848267, Yi = -6991.983688, Mod=8740.511749  Angle=-53.125590 drg  (Exptd: Mod=8740.495938, Angle=-53.125590 drg)
+# Xi=7226.809464, Yi = -6787.389923, Mod=9914.423431  Angle=-43.204061 drg  (Exptd: Mod=9914.405529, Angle=-43.204062 drg)
+# Xi=1624.109253, Yi = 3649.269958, Mod=3994.366074  Angle=66.008523 drg  (Exptd: Mod=3994.358784, Angle=66.008523 drg)
+# Xi=344.347702, Yi = 5278.027969, Mod=5289.258575  Angle=86.267214 drg  (Exptd: Mod=5289.248962, Angle=86.267214 drg)
+# Xi=9128.437073, Yi = 7205.404388, Mod=11629.561615  Angle=38.285305 drg  (Exptd: Mod=11629.540653, Angle=38.285305 drg)
+# passed 80... 
+# Xi=4811.965424, Yi = -4904.225632, Mod=6870.706696  Angle=-45.544036 drg  (Exptd: Mod=6870.694309, Angle=-45.544036 drg)
+# Xi=3134.653900, Yi = -8346.232666, Mod=8915.488922  Angle=-69.414971 drg  (Exptd: Mod=8915.472774, Angle=-69.414971 drg)
+# Xi=7930.982620, Yi = 3921.600494, Mod=8847.582687  Angle=26.310826 drg  (Exptd: Mod=8847.566658, Angle=26.310826 drg)
+# Xi=2090.700653, Yi = 2071.476471, Mod=2943.140411  Angle=44.735366 drg  (Exptd: Mod=2943.135062, Angle=44.735365 drg)
+# Xi=7278.022781, Yi = -9403.038666, Mod=11890.637619  Angle=-52.259859 drg  (Exptd: Mod=11890.616122, Angle=-52.259859 drg)
+# Xi=8975.997177, Yi = 7047.379745, Mod=11412.035599  Angle=38.136740 drg  (Exptd: Mod=11412.015011, Angle=38.136739 drg)
+# Xi=9239.217133, Yi = 4633.131836, Mod=10335.832336  Angle=26.632102 drg  (Exptd: Mod=10335.813651, Angle=26.632102 drg)
+# Xi=4901.621674, Yi = -9401.895660, Mod=10602.921432  Angle=-62.464988 drg  (Exptd: Mod=10602.902293, Angle=-62.464988 drg)
+# Xi=6025.513626, Yi = 8255.061951, Mod=10220.236801  Angle=53.873642 drg  (Exptd: Mod=10220.218308, Angle=53.873642 drg)
+# Xi=7249.341888, Yi = 5363.997925, Mod=9018.077728  Angle=36.498810 drg  (Exptd: Mod=9018.061408, Angle=36.498811 drg)
+# passed 90... 
+# Xi=6218.607391, Yi = -4722.496658, Mod=7808.538498  Angle=-37.213540 drg  (Exptd: Mod=7808.524353, Angle=-37.213540 drg)
+# Xi=6204.285904, Yi = 5597.169815, Mod=8355.939560  Angle=42.055062 drg  (Exptd: Mod=8355.924456, Angle=42.055062 drg)
+# Xi=727.105560, Yi = -291.068832, Mod=783.202255  Angle=-21.816798 drg  (Exptd: Mod=783.200843, Angle=-21.816802 drg)
+# Xi=2964.035507, Yi = -2042.528793, Mod=3599.649597  Angle=-34.570882 drg  (Exptd: Mod=3599.643088, Angle=-34.570883 drg)
+# Xi=7271.568451, Yi = -2428.412842, Mod=7666.362213  Angle=-18.467256 drg  (Exptd: Mod=7666.348327, Angle=-18.467256 drg)
+# Xi=1372.351395, Yi = -5931.467941, Mod=6088.168411  Angle=-76.972820 drg  (Exptd: Mod=6088.157380, Angle=-76.972820 drg)
+# Xi=7493.460312, Yi = 4753.459976, Mod=8873.985168  Angle=32.388909 drg  (Exptd: Mod=8873.969190, Angle=32.388909 drg)
+# Xi=7450.543869, Yi = -3310.294556, Mod=8152.845779  Angle=-23.955693 drg  (Exptd: Mod=8152.831041, Angle=-23.955693 drg)
+# Xi=9650.481613, Yi = -8035.740433, Mod=12558.084610  Angle=-39.783393 drg  (Exptd: Mod=12558.061939, Angle=-39.783393 drg)
+# Passed verification of         100 random data.
+# Completed. Total errors:           0
+# ** Note: $stop    : ../../src/verilog-tb/s6base_tb.v(201)
+#    Time: 235542402 ns  Iteration: 0  Instance: /s6base_tb
+# Break in Module s6base_tb at ../../src/verilog-tb/s6base_tb.v line 201
+do {s6base_tb.fdo}
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:12:32 on Oct 30,2019
+# vlog -reportprogress 300 ../../src/verilog-IPs/MODSCALE.v 
+# -- Compiling module MODSCALE
+# 
+# Top level modules:
+# 	MODSCALE
+# End time: 19:12:32 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:12:32 on Oct 30,2019
+# vlog -reportprogress 300 ../../src/verilog-IPs/ITERCOUNTER.v 
+# -- Compiling module ITERCOUNTER
+# 
+# Top level modules:
+# 	ITERCOUNTER
+# End time: 19:12:32 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:12:32 on Oct 30,2019
+# vlog -reportprogress 300 ../../src/verilog-IPs/ATAN_ROM.v 
+# -- Compiling module ATAN_ROM
+# 
+# Top level modules:
+# 	ATAN_ROM
+# End time: 19:12:32 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:12:32 on Oct 30,2019
+# vlog -reportprogress 300 ../../src/verilog-rtl/rec2pol_control.v 
+# -- Compiling module rec2pol_control
+# 
+# Top level modules:
+# 	rec2pol_control
+# End time: 19:12:32 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:12:32 on Oct 30,2019
+# vlog -reportprogress 300 ../../src/verilog-rtl/rec2pol.v 
+# -- Compiling module rec2pol
+# 
+# Top level modules:
+# 	rec2pol
+# End time: 19:12:32 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:12:32 on Oct 30,2019
+# vlog -reportprogress 300 ../../src/verilog-rtl/uart.v 
+# -- Compiling module uart
+# 
+# Top level modules:
+# 	uart
+# End time: 19:12:32 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:12:32 on Oct 30,2019
+# vlog -reportprogress 300 ../../src/verilog-rtl/rec2pol_all.v 
+# -- Compiling module rec2pol_all
+# 
+# Top level modules:
+# 	rec2pol_all
+# End time: 19:12:32 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:12:32 on Oct 30,2019
+# vlog -reportprogress 300 ../../src/verilog-rtl/ioports.v 
+# -- Compiling module ioports
+# 
+# Top level modules:
+# 	ioports
+# End time: 19:12:32 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:12:32 on Oct 30,2019
+# vlog -reportprogress 300 ../../src/verilog-tb/uart_sim.v 
+# -- Compiling module uart_sim
+# 
+# Top level modules:
+# 	uart_sim
+# End time: 19:12:32 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:12:32 on Oct 30,2019
+# vlog -reportprogress 300 ../../src/verilog-rtl/s6base_top.v 
+# -- Compiling module s6base_top
+# 
+# Top level modules:
+# 	s6base_top
+# End time: 19:12:32 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:12:32 on Oct 30,2019
+# vlog -reportprogress 300 ../../src/verilog-tb/s6base_tb.v 
+# -- Compiling module s6base_tb
+# 
+# Top level modules:
+# 	s6base_tb
+# End time: 19:12:32 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 19:12:33 on Oct 30,2019
+# vlog -reportprogress 300 D:/edatools/xilinx/14.6/ISE_DS/ISE/verilog/src/glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 19:12:33 on Oct 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work work.s6base_tb glbl 
+# Start time: 19:12:36 on Oct 30,2019
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.s6base_tb(fast)
+# Loading work.s6base_top(fast)
+# Loading work.uart(fast)
+# Loading work.ioports(fast)
+# Loading work.rec2pol_all(fast)
+# Loading work.rec2pol(fast)
+# Loading work.ATAN_ROM(fast)
+# Loading work.ITERCOUNTER(fast)
+# Loading work.MODSCALE(fast)
+# Loading work.rec2pol_control(fast)
+# Loading work.uart_sim(fast)
+# Loading work.glbl(fast)
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+#   303379748        9748
+# -1064739199       -9199
+# -2071669239       -9239
+# -1309649309       -9309
+#   112818957        8957
+#  1189058957        8957
+# -1295874971       -4971
+# -1992863214       -3214
+#    15983361        3361
+#   114806029        6029
+# Initial verification...
+# Xi=100.000000, Yi = 100.000000, Mod=141.421616  Angle=45.000015 drg  (Exptd: Mod=141.421356, Angle=45.000000 drg)
+# Xi=1000.000000, Yi = 100.000000, Mod=1004.989487  Angle=5.710591 drg  (Exptd: Mod=1004.987562, Angle=5.710593 drg)
+# Xi=100.000000, Yi = 1000.000000, Mod=1004.989410  Angle=84.289409 drg  (Exptd: Mod=1004.987562, Angle=84.289407 drg)
+# Xi=100.000000, Yi = 100.000000, Mod=141.421616  Angle=45.000015 drg  (Exptd: Mod=141.421356, Angle=45.000000 drg)
+# Passed initial verification.
+# Simulating         100 random integers...
+# Xi=5139.943207, Yi = 7821.801712, Mod=9359.482605  Angle=56.689870 drg  (Exptd: Mod=9359.465700, Angle=56.689870 drg)
+# Xi=420.343460, Yi = 7965.966980, Mod=7977.063934  Angle=86.979451 drg  (Exptd: Mod=7977.049489, Angle=86.979451 drg)
+# Xi=1997.913956, Yi = -7368.856354, Mod=7634.914200  Angle=-74.830126 drg  (Exptd: Mod=7634.900401, Angle=-74.830126 drg)
+# Xi=7432.481369, Yi = -988.177094, Mod=7497.898117  Angle=-7.573280 drg  (Exptd: Mod=7497.884586, Angle=-7.573280 drg)
+# Xi=9359.968338, Yi = -7453.552872, Mod=11965.156738  Angle=-38.531097 drg  (Exptd: Mod=11965.135089, Angle=-38.531097 drg)
+# Xi=413.163788, Yi = 8412.857651, Mod=8423.012222  Angle=87.188407 drg  (Exptd: Mod=8422.996983, Angle=87.188406 drg)
+# Xi=1024.413849, Yi = -6281.410919, Mod=6364.408310  Angle=-80.737372 drg  (Exptd: Mod=6364.396819, Angle=-80.737373 drg)
+# Xi=3071.519897, Yi = -7477.692307, Mod=8083.956558  Angle=-67.669214 drg  (Exptd: Mod=8083.941904, Angle=-67.669214 drg)
+# Xi=1864.286560, Yi = -8561.840866, Mod=8762.474594  Angle=-77.715950 drg  (Exptd: Mod=8762.458753, Angle=-77.715950 drg)
+# Xi=6964.655563, Yi = -9800.850021, Mod=12023.460800  Angle=-54.601732 drg  (Exptd: Mod=12023.439119, Angle=-54.601732 drg)
+# Xi=9984.615677, Yi = 1395.527496, Mod=10081.687164  Angle=7.956560 drg  (Exptd: Mod=10081.668870, Angle=7.956560 drg)
+# Executed 10 tests,           0 errors found 
+# Xi=6324.865234, Yi = 4196.129395, Mod=7590.232620  Angle=33.561640 drg  (Exptd: Mod=7590.218846, Angle=33.561640 drg)
+# Xi=1880.272125, Yi = -2595.200729, Mod=3204.766357  Angle=-54.075958 drg  (Exptd: Mod=3204.760536, Angle=-54.075958 drg)
+# Xi=3535.755524, Yi = -332.280960, Mod=3551.341034  Angle=-5.368737 drg  (Exptd: Mod=3551.334645, Angle=-5.368738 drg)
+# Xi=1043.781052, Yi = -2104.162796, Mod=2348.829559  Angle=-63.616047 drg  (Exptd: Mod=2348.825229, Angle=-63.616047 drg)
+# Xi=3727.864914, Yi = -5465.832687, Mod=6616.076050  Angle=-55.704817 drg  (Exptd: Mod=6616.064070, Angle=-55.704817 drg)
+# Xi=2488.710907, Yi = -409.755157, Mod=2522.222122  Angle=-9.349613 drg  (Exptd: Mod=2522.217530, Angle=-9.349613 drg)
+# Xi=3839.910599, Yi = -6202.551529, Mod=7294.981247  Angle=-58.238945 drg  (Exptd: Mod=7294.968052, Angle=-58.238945 drg)
+# Xi=4484.285690, Yi = 1289.394684, Mod=4665.987137  Angle=16.041862 drg  (Exptd: Mod=4665.978654, Angle=16.041862 drg)
+# Xi=6796.957855, Yi = -5038.702209, Mod=8460.934647  Angle=-36.550179 drg  (Exptd: Mod=8460.919338, Angle=-36.550179 drg)
+# Xi=1080.741974, Yi = 7710.381012, Mod=7785.768921  Angle=82.020998 drg  (Exptd: Mod=7785.754849, Angle=82.020998 drg)
+# Executed 20 tests,           0 errors found 
+# Xi=8388.700211, Yi = -5044.793579, Mod=9788.798706  Angle=-31.021845 drg  (Exptd: Mod=9788.781001, Angle=-31.021845 drg)
+# Xi=5392.951050, Yi = -5221.927597, Mod=7506.840363  Angle=-44.076949 drg  (Exptd: Mod=7506.826817, Angle=-44.076949 drg)
+# Xi=149.054367, Yi = 3298.397308, Mod=3301.769485  Angle=87.412568 drg  (Exptd: Mod=3301.763469, Angle=87.412568 drg)
+# Xi=5419.975677, Yi = 2293.076874, Mod=5885.105225  Angle=22.932192 drg  (Exptd: Mod=5885.094553, Angle=22.932192 drg)
+# Xi=8586.989319, Yi = 5391.863922, Mod=10139.475052  Angle=32.125158 drg  (Exptd: Mod=10139.456697, Angle=32.125158 drg)
+# Xi=1272.398270, Yi = -8280.256088, Mod=8377.463318  Angle=-81.263891 drg  (Exptd: Mod=8377.448194, Angle=-81.263891 drg)
+# Xi=7138.255936, Yi = 226.333237, Mod=7141.856140  Angle=1.816073 drg  (Exptd: Mod=7141.843217, Angle=1.816073 drg)
+# Xi=5139.624100, Yi = 7430.200104, Mod=9034.594864  Angle=55.327583 drg  (Exptd: Mod=9034.578544, Angle=55.327583 drg)
+# Xi=6604.802765, Yi = 2730.293289, Mod=7146.894852  Angle=22.459222 drg  (Exptd: Mod=7146.881908, Angle=22.459222 drg)
+# Xi=937.609146, Yi = 7804.296280, Mod=7860.430954  Angle=83.149312 drg  (Exptd: Mod=7860.416741, Angle=83.149312 drg)
+# Executed 30 tests,           0 errors found 
+# Xi=2579.028839, Yi = 9781.981628, Mod=10116.270264  Angle=75.230020 drg  (Exptd: Mod=10116.251990, Angle=75.230020 drg)
+# Xi=385.334457, Yi = 8361.631088, Mod=8370.520370  Angle=87.361468 drg  (Exptd: Mod=8370.505188, Angle=87.361468 drg)
+# Xi=1853.663940, Yi = -9266.622208, Mod=9450.221191  Angle=-78.688049 drg  (Exptd: Mod=9450.204079, Angle=-78.688049 drg)
+# Xi=2347.661636, Yi = -866.420471, Mod=2502.443359  Angle=-20.256925 drg  (Exptd: Mod=2502.438729, Angle=-20.256925 drg)
+# Xi=1044.248611, Yi = 7630.216934, Mod=7701.355774  Angle=82.207084 drg  (Exptd: Mod=7701.341807, Angle=82.207084 drg)
+# Xi=3377.803574, Yi = -6108.754639, Mod=6980.445358  Angle=-61.059833 drg  (Exptd: Mod=6980.432667, Angle=-61.059832 drg)
+# Xi=5121.246719, Yi = -2328.014389, Mod=5625.560760  Angle=-24.445577 drg  (Exptd: Mod=5625.550547, Angle=-24.445577 drg)
+# Xi=9233.185883, Yi = 1565.496277, Mod=9364.978195  Angle=9.623043 drg  (Exptd: Mod=9364.961299, Angle=9.623043 drg)
+# Xi=7891.192352, Yi = 5687.928833, Mod=9727.476196  Angle=35.783860 drg  (Exptd: Mod=9727.458617, Angle=35.783860 drg)
+# Xi=7533.646622, Yi = 7922.926712, Mod=10932.933319  Angle=46.442712 drg  (Exptd: Mod=10932.913569, Angle=46.442713 drg)
+# Executed 40 tests,           0 errors found 
+# Xi=2316.855743, Yi = -6634.998077, Mod=7027.887222  Angle=-70.751457 drg  (Exptd: Mod=7027.874502, Angle=-70.751457 drg)
+# Xi=4053.505569, Yi = 7385.903214, Mod=8425.124939  Angle=61.241293 drg  (Exptd: Mod=8425.109713, Angle=61.241293 drg)
+# Xi=4050.559067, Yi = -5652.035843, Mod=6953.611511  Angle=-54.372539 drg  (Exptd: Mod=6953.598919, Angle=-54.372539 drg)
+# Xi=7113.185623, Yi = -7387.466919, Mod=10255.362335  Angle=-46.083626 drg  (Exptd: Mod=10255.343836, Angle=-46.083626 drg)
+# Xi=1738.349045, Yi = 9355.294083, Mod=9515.446014  Angle=79.473667 drg  (Exptd: Mod=9515.428775, Angle=79.473667 drg)
+# Xi=4589.319351, Yi = 5388.684235, Mod=7078.131897  Angle=49.580338 drg  (Exptd: Mod=7078.119093, Angle=49.580338 drg)
+# Xi=1285.388062, Yi = -5552.779205, Mod=5699.622543  Angle=-76.966423 drg  (Exptd: Mod=5699.612212, Angle=-76.966423 drg)
+# Xi=4565.950958, Yi = -2752.052307, Mod=5331.210236  Angle=-31.078784 drg  (Exptd: Mod=5331.200620, Angle=-31.078784 drg)
+# Xi=2053.601471, Yi = -7778.265045, Mod=8044.806961  Angle=-75.210362 drg  (Exptd: Mod=8044.792484, Angle=-75.210362 drg)
+# Xi=4742.091599, Yi = -1892.294388, Mod=5105.713058  Angle=-21.754083 drg  (Exptd: Mod=5105.703750, Angle=-21.754082 drg)
+# Executed 50 tests,           0 errors found 
+# Xi=6726.343033, Yi = -9773.426956, Mod=11864.403625  Angle=-55.463175 drg  (Exptd: Mod=11864.382203, Angle=-55.463175 drg)
+# Xi=519.662613, Yi = 8745.051819, Mod=8760.494186  Angle=86.599277 drg  (Exptd: Mod=8760.478329, Angle=86.599277 drg)
+# Xi=1736.992050, Yi = -6756.785965, Mod=6976.494385  Angle=-75.582943 drg  (Exptd: Mod=6976.481775, Angle=-75.582943 drg)
+# Xi=3318.894928, Yi = 1560.856842, Mod=3667.613174  Angle=25.187327 drg  (Exptd: Mod=3667.606525, Angle=25.187327 drg)
+# Xi=5327.754532, Yi = -2429.113571, Mod=5855.397980  Angle=-24.509937 drg  (Exptd: Mod=5855.387356, Angle=-24.509937 drg)
+# Xi=4780.574799, Yi = -9808.287521, Mod=10911.316589  Angle=-64.015323 drg  (Exptd: Mod=10911.296876, Angle=-64.015323 drg)
+# Xi=9589.114426, Yi = -4161.418472, Mod=10453.177200  Angle=-23.459550 drg  (Exptd: Mod=10453.158335, Angle=-23.459550 drg)
+# Xi=5601.099503, Yi = 8753.997131, Mod=10392.553619  Angle=57.387531 drg  (Exptd: Mod=10392.534889, Angle=57.387530 drg)
+# Xi=6027.949951, Yi = 5385.043610, Mod=8083.013733  Angle=41.775874 drg  (Exptd: Mod=8082.999152, Angle=41.775874 drg)
+# Xi=2006.678391, Yi = 1903.808807, Mod=2766.093643  Angle=43.493120 drg  (Exptd: Mod=2766.088599, Angle=43.493120 drg)
+# Executed 60 tests,           0 errors found 
+# Xi=8253.679138, Yi = -2961.263275, Mod=8768.841263  Angle=-19.737022 drg  (Exptd: Mod=8768.825435, Angle=-19.737022 drg)
+# Xi=288.550827, Yi = -7694.989212, Mod=7700.411377  Angle=-87.852498 drg  (Exptd: Mod=7700.397428, Angle=-87.852498 drg)
+# Xi=1022.927094, Yi = 105.911346, Mod=1028.397339  Angle=5.911202 drg  (Exptd: Mod=1028.395377, Angle=5.911201 drg)
+# Xi=9494.537491, Yi = -1438.796722, Mod=9602.953308  Angle=-8.617008 drg  (Exptd: Mod=9602.935914, Angle=-8.617008 drg)
+# Xi=3407.725433, Yi = -5585.460083, Mod=6542.943680  Angle=-58.612363 drg  (Exptd: Mod=6542.931833, Angle=-58.612362 drg)
+# Xi=5569.529190, Yi = -9172.231567, Mod=10730.792297  Angle=-58.733191 drg  (Exptd: Mod=10730.772914, Angle=-58.733191 drg)
+# Xi=9060.748352, Yi = 8886.365524, Mod=12691.147858  Angle=44.443304 drg  (Exptd: Mod=12691.124967, Angle=44.443304 drg)
+# Xi=2192.828064, Yi = -1320.209579, Mod=2559.584351  Angle=-31.050377 drg  (Exptd: Mod=2559.579702, Angle=-31.050378 drg)
+# Xi=8107.413498, Yi = -2787.131638, Mod=8573.127930  Angle=-18.971724 drg  (Exptd: Mod=8573.112410, Angle=-18.971724 drg)
+# Xi=7824.718155, Yi = -8779.849899, Mod=11760.632538  Angle=-48.292153 drg  (Exptd: Mod=11760.611313, Angle=-48.292153 drg)
+# Executed 70 tests,           0 errors found 
+# Xi=7594.115387, Yi = 5915.288239, Mod=9626.087372  Angle=37.916113 drg  (Exptd: Mod=9626.069990, Angle=37.916113 drg)
+# Xi=3319.178558, Yi = 9091.443680, Mod=9678.410645  Angle=69.943460 drg  (Exptd: Mod=9678.393177, Angle=69.943460 drg)
+# Xi=3800.897369, Yi = 628.605530, Mod=3852.534195  Angle=9.390772 drg  (Exptd: Mod=3852.527187, Angle=9.390772 drg)
+# Xi=1698.382675, Yi = 3464.028946, Mod=3857.985825  Angle=63.881696 drg  (Exptd: Mod=3857.978778, Angle=63.881696 drg)
+# Xi=9617.270691, Yi = 7409.552856, Mod=12140.588959  Angle=37.612180 drg  (Exptd: Mod=12140.567082, Angle=37.612180 drg)
+# Xi=5244.848267, Yi = -6991.983688, Mod=8740.511749  Angle=-53.125590 drg  (Exptd: Mod=8740.495938, Angle=-53.125590 drg)
+# Xi=7226.809464, Yi = -6787.389923, Mod=9914.423431  Angle=-43.204061 drg  (Exptd: Mod=9914.405529, Angle=-43.204062 drg)
+# Xi=1624.109253, Yi = 3649.269958, Mod=3994.366074  Angle=66.008523 drg  (Exptd: Mod=3994.358784, Angle=66.008523 drg)
+# Xi=344.347702, Yi = 5278.027969, Mod=5289.258575  Angle=86.267214 drg  (Exptd: Mod=5289.248962, Angle=86.267214 drg)
+# Xi=9128.437073, Yi = 7205.404388, Mod=11629.561615  Angle=38.285305 drg  (Exptd: Mod=11629.540653, Angle=38.285305 drg)
+# Executed 80 tests,           0 errors found 
+# Xi=4811.965424, Yi = -4904.225632, Mod=6870.706696  Angle=-45.544036 drg  (Exptd: Mod=6870.694309, Angle=-45.544036 drg)
+# Xi=3134.653900, Yi = -8346.232666, Mod=8915.488922  Angle=-69.414971 drg  (Exptd: Mod=8915.472774, Angle=-69.414971 drg)
+# Xi=7930.982620, Yi = 3921.600494, Mod=8847.582687  Angle=26.310826 drg  (Exptd: Mod=8847.566658, Angle=26.310826 drg)
+# Xi=2090.700653, Yi = 2071.476471, Mod=2943.140411  Angle=44.735366 drg  (Exptd: Mod=2943.135062, Angle=44.735365 drg)
+# Xi=7278.022781, Yi = -9403.038666, Mod=11890.637619  Angle=-52.259859 drg  (Exptd: Mod=11890.616122, Angle=-52.259859 drg)
+# Xi=8975.997177, Yi = 7047.379745, Mod=11412.035599  Angle=38.136740 drg  (Exptd: Mod=11412.015011, Angle=38.136739 drg)
+# Xi=9239.217133, Yi = 4633.131836, Mod=10335.832336  Angle=26.632102 drg  (Exptd: Mod=10335.813651, Angle=26.632102 drg)
+# Xi=4901.621674, Yi = -9401.895660, Mod=10602.921432  Angle=-62.464988 drg  (Exptd: Mod=10602.902293, Angle=-62.464988 drg)
+# Xi=6025.513626, Yi = 8255.061951, Mod=10220.236801  Angle=53.873642 drg  (Exptd: Mod=10220.218308, Angle=53.873642 drg)
+# Xi=7249.341888, Yi = 5363.997925, Mod=9018.077728  Angle=36.498810 drg  (Exptd: Mod=9018.061408, Angle=36.498811 drg)
+# Executed 90 tests,           0 errors found 
+# Xi=6218.607391, Yi = -4722.496658, Mod=7808.538498  Angle=-37.213540 drg  (Exptd: Mod=7808.524353, Angle=-37.213540 drg)
+# Xi=6204.285904, Yi = 5597.169815, Mod=8355.939560  Angle=42.055062 drg  (Exptd: Mod=8355.924456, Angle=42.055062 drg)
+# Xi=727.105560, Yi = -291.068832, Mod=783.202255  Angle=-21.816798 drg  (Exptd: Mod=783.200843, Angle=-21.816802 drg)
+# Xi=2964.035507, Yi = -2042.528793, Mod=3599.649597  Angle=-34.570882 drg  (Exptd: Mod=3599.643088, Angle=-34.570883 drg)
+# Xi=7271.568451, Yi = -2428.412842, Mod=7666.362213  Angle=-18.467256 drg  (Exptd: Mod=7666.348327, Angle=-18.467256 drg)
+# Xi=1372.351395, Yi = -5931.467941, Mod=6088.168411  Angle=-76.972820 drg  (Exptd: Mod=6088.157380, Angle=-76.972820 drg)
+# Xi=7493.460312, Yi = 4753.459976, Mod=8873.985168  Angle=32.388909 drg  (Exptd: Mod=8873.969190, Angle=32.388909 drg)
+# Xi=7450.543869, Yi = -3310.294556, Mod=8152.845779  Angle=-23.955693 drg  (Exptd: Mod=8152.831041, Angle=-23.955693 drg)
+# Xi=9650.481613, Yi = -8035.740433, Mod=12558.084610  Angle=-39.783393 drg  (Exptd: Mod=12558.061939, Angle=-39.783393 drg)
+# Passed verification of         100 random data.
+# Completed. Total errors:           0
+# ** Note: $stop    : ../../src/verilog-tb/s6base_tb.v(201)
+#    Time: 235542402 ns  Iteration: 0  Instance: /s6base_tb
+# Break in Module s6base_tb at ../../src/verilog-tb/s6base_tb.v line 201
+# End time: 19:14:24 on Oct 30,2019, Elapsed time: 0:01:48
+# Errors: 0, Warnings: 0

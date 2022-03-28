@@ -1,0 +1,192 @@
+ISim log file
+Running: C:\lab\impl\s6base_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/lab/impl/s6base_tb_isim_beh.wdb 
+ISim P.68d (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Loading simulation input data from files ../simdata/audioin_left.hex, ../simdata/audioin_right.hex:
+Datain(0) [ left, right] = [0  , 0] (hex 00000  00000)
+Datain(1) [ left, right] = [-30  , -22] (hex 3ffe2  3ffea)
+Datain(2) [ left, right] = [497  , 385] (hex 001f1  00181)
+Datain(3) [ left, right] = [592  , 508] (hex 00250  001fc)
+Datain(4) [ left, right] = [525  , 414] (hex 0020d  0019e)
+Datain(5) [ left, right] = [555  , 445] (hex 0022b  001bd)
+Datain(6) [ left, right] = [521  , 440] (hex 00209  001b8)
+Datain(7) [ left, right] = [581  , 437] (hex 00245  001b5)
+Datain(8) [ left, right] = [502  , 477] (hex 001f6  001dd)
+Datain(9) [ left, right] = [558  , 451] (hex 0022e  001c3)
+Datain(10) [ left, right] = [544  , 452] (hex 00220  001c4)
+Datain(11) [ left, right] = [537  , 468] (hex 00219  001d4)
+Datain(12) [ left, right] = [534  , 422] (hex 00216  001a6)
+Datain(13) [ left, right] = [546  , 506] (hex 00222  001fa)
+Datain(14) [ left, right] = [552  , 478] (hex 00228  001de)
+Datain(15) [ left, right] = [553  , 510] (hex 00229  001fe)
+Datain(16) [ left, right] = [559  , 513] (hex 0022f  00201)
+Datain(17) [ left, right] = [529  , 491] (hex 00211  001eb)
+Datain(18) [ left, right] = [594  , 451] (hex 00252  001c3)
+Datain(19) [ left, right] = [560  , 460] (hex 00230  001cc)
+-----------------------------------------------
+Read         480 samples from input files
+
+-----------------------------------------------
+Loading the golden output data from files ../simdata/output_left_golden.hex and ../simdata/output_right_golden.hex:
+golden data out(0) = 0 (hex 00000 )
+golden data out(1) = 0 (hex 00000 )
+golden data out(2) = 0 (hex 00000 )
+golden data out(3) = 0 (hex 00000 )
+golden data out(4) = 512 (hex 00200 )
+golden data out(5) = 512 (hex 00200 )
+golden data out(6) = 512 (hex 00200 )
+golden data out(7) = 512 (hex 00200 )
+golden data out(8) = 512 (hex 00200 )
+golden data out(9) = 512 (hex 00200 )
+golden data out(10) = 512 (hex 00200 )
+golden data out(11) = 512 (hex 00200 )
+golden data out(12) = 512 (hex 00200 )
+golden data out(13) = 512 (hex 00200 )
+golden data out(14) = 512 (hex 00200 )
+golden data out(15) = 512 (hex 00200 )
+golden data out(16) = 512 (hex 00200 )
+golden data out(17) = 512 (hex 00200 )
+golden data out(18) = 512 (hex 00200 )
+golden data out(19) = 512 (hex 00200 )
+-----------------------------------------------
+Read         480 samples from golden output file
+
+-----------------------------------------------
+Finished circuit initialization process.
+[time=     0.229 us] Reset released, programming parameters...
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Loading simulation input data from files ../simdata/audioin_left.hex, ../simdata/audioin_right.hex:
+Datain(0) [ left, right] = [0  , 0] (hex 00000  00000)
+Datain(1) [ left, right] = [-30  , -22] (hex 3ffe2  3ffea)
+Datain(2) [ left, right] = [497  , 385] (hex 001f1  00181)
+Datain(3) [ left, right] = [592  , 508] (hex 00250  001fc)
+Datain(4) [ left, right] = [525  , 414] (hex 0020d  0019e)
+Datain(5) [ left, right] = [555  , 445] (hex 0022b  001bd)
+Datain(6) [ left, right] = [521  , 440] (hex 00209  001b8)
+Datain(7) [ left, right] = [581  , 437] (hex 00245  001b5)
+Datain(8) [ left, right] = [502  , 477] (hex 001f6  001dd)
+Datain(9) [ left, right] = [558  , 451] (hex 0022e  001c3)
+Datain(10) [ left, right] = [544  , 452] (hex 00220  001c4)
+Datain(11) [ left, right] = [537  , 468] (hex 00219  001d4)
+Datain(12) [ left, right] = [534  , 422] (hex 00216  001a6)
+Datain(13) [ left, right] = [546  , 506] (hex 00222  001fa)
+Datain(14) [ left, right] = [552  , 478] (hex 00228  001de)
+Datain(15) [ left, right] = [553  , 510] (hex 00229  001fe)
+Datain(16) [ left, right] = [559  , 513] (hex 0022f  00201)
+Datain(17) [ left, right] = [529  , 491] (hex 00211  001eb)
+Datain(18) [ left, right] = [594  , 451] (hex 00252  001c3)
+Datain(19) [ left, right] = [560  , 460] (hex 00230  001cc)
+-----------------------------------------------
+Read         480 samples from input files
+
+-----------------------------------------------
+Loading the golden output data from files ../simdata/output_left_golden.hex and ../simdata/output_right_golden.hex:
+golden data out(0) = 0 (hex 00000 )
+golden data out(1) = 0 (hex 00000 )
+golden data out(2) = 0 (hex 00000 )
+golden data out(3) = 0 (hex 00000 )
+golden data out(4) = 512 (hex 00200 )
+golden data out(5) = 512 (hex 00200 )
+golden data out(6) = 512 (hex 00200 )
+golden data out(7) = 512 (hex 00200 )
+golden data out(8) = 512 (hex 00200 )
+golden data out(9) = 512 (hex 00200 )
+golden data out(10) = 512 (hex 00200 )
+golden data out(11) = 512 (hex 00200 )
+golden data out(12) = 512 (hex 00200 )
+golden data out(13) = 512 (hex 00200 )
+golden data out(14) = 512 (hex 00200 )
+golden data out(15) = 512 (hex 00200 )
+golden data out(16) = 512 (hex 00200 )
+golden data out(17) = 512 (hex 00200 )
+golden data out(18) = 512 (hex 00200 )
+golden data out(19) = 512 (hex 00200 )
+-----------------------------------------------
+Read         480 samples from golden output file
+
+-----------------------------------------------
+Finished circuit initialization process.
+[time=     0.229 us] Reset released, programming parameters...
+[time=   479.759 us] Applying input samples...
+Starting the verification process...
+done           0 samples.
+Error: expected LEFT:       0, read     512 || RIGHT:       0, read     512           2.
+Error: expected LEFT:       0, read     512 || RIGHT:       0, read     512           3.
+Error: expected LEFT:       0, read     512 || RIGHT:       0, read     512           4.
+Error: expected LEFT:     512, read     512 || RIGHT:     512, read     256          50.
+Error: expected LEFT:     512, read     512 || RIGHT:     512, read     256          51.
+Error: expected LEFT:     512, read     512 || RIGHT:     512, read     256          52.
+Error: expected LEFT:     512, read     512 || RIGHT:     512, read     256          53.
+Error: expected LEFT:     512, read     512 || RIGHT:     512, read     256          54.
+Error: expected LEFT:     512, read     512 || RIGHT:     512, read     256          82.
+Error: expected LEFT:     512, read     512 || RIGHT:     512, read     256          83.
+Error: expected LEFT:     512, read     512 || RIGHT:     512, read     256          84.
+Error: expected LEFT:     512, read     512 || RIGHT:     512, read     256          85.
+done         100 samples.
+Error: expected LEFT:     512, read     512 || RIGHT:     256, read     512         125.
+Error: expected LEFT:     512, read     512 || RIGHT:     256, read     512         130.
+Error: expected LEFT:     512, read     512 || RIGHT:     256, read     512         131.
+Error: expected LEFT:     512, read     512 || RIGHT:     256, read     512         132.
+Error: expected LEFT:     512, read     512 || RIGHT:     512, read     256         134.
+Error: expected LEFT:     512, read     512 || RIGHT:     512, read     256         135.
+Error: expected LEFT:     512, read     512 || RIGHT:     512, read     256         136.
+Error: expected LEFT:     512, read     512 || RIGHT:     256, read     512         138.
+Error: expected LEFT:     512, read     512 || RIGHT:     256, read     512         139.
+Error: expected LEFT:     512, read     512 || RIGHT:     256, read     512         140.
+Error: expected LEFT:     512, read     512 || RIGHT:     256, read     512         141.
+Error: expected LEFT:     512, read     512 || RIGHT:     256, read     512         154.
+Error: expected LEFT:     512, read     512 || RIGHT:     256, read     512         155.
+Error: expected LEFT:     512, read     512 || RIGHT:     256, read     512         156.
+Error: expected LEFT:     512, read     512 || RIGHT:     256, read     512         165.
+Error: expected LEFT:     512, read     512 || RIGHT:     256, read     512         166.
+Error: expected LEFT:     512, read     512 || RIGHT:     256, read     512         167.
+Error: expected LEFT:     512, read     512 || RIGHT:     256, read     512         168.
+Error: expected LEFT:     512, read     512 || RIGHT:     512, read     256         174.
+Error: expected LEFT:     512, read     512 || RIGHT:     512, read     256         175.
+Error: expected LEFT:     512, read     512 || RIGHT:     512, read     256         176.
+Error: expected LEFT:     512, read     512 || RIGHT:     256, read     512         178.
+Error: expected LEFT:     512, read     512 || RIGHT:     256, read     512         179.
+Error: expected LEFT:     512, read     512 || RIGHT:     256, read     512         180.
+Error: expected LEFT:     512, read     512 || RIGHT:     256, read     512         181.
+done         200 samples.
+Error: expected LEFT:     256, read     512 || RIGHT:     256, read     256         201.
+Error: expected LEFT:     256, read     512 || RIGHT:     256, read     256         202.
+Error: expected LEFT:     256, read     512 || RIGHT:     256, read     256         203.
+Error: expected LEFT:     256, read     512 || RIGHT:     256, read     256         204.
+Error: expected LEFT:     512, read     256 || RIGHT:     256, read     256         210.
+Error: expected LEFT:     512, read     256 || RIGHT:     256, read     256         211.
+Error: expected LEFT:     512, read     256 || RIGHT:     256, read     256         212.
+done         300 samples.
+Error: expected LEFT:     512, read     256 || RIGHT:     256, read     256         325.
+Error: expected LEFT:     512, read     512 || RIGHT:     512, read     256         329.
+Error: expected LEFT:     512, read     512 || RIGHT:     512, read     768         362.
+Error: expected LEFT:     512, read     512 || RIGHT:     512, read     768         363.
+Error: expected LEFT:     512, read     512 || RIGHT:     512, read     768         364.
+Error: expected LEFT:     768, read     512 || RIGHT:     768, read     768         365.
+done         400 samples.
+Maximum simulation time exhausted (        480 sampling periods).
+-------------------------------------------------------
+
+          ######    ##       #    #
+          #        #  #      #    #
+          #####   #    #     #    #
+          #       ######     #    #
+          #       #    #     #    #
+          #       #    #     #    ######
+
+-------------------------------------------------------
+
+ ***************   50 errors found    ****************
+-------------------------------------------------------
+
+Stopped at time : 9979734125 ps(1) :  in File "C:/lab/src/verilog-tb/verilog-tasks.v" Line 116 

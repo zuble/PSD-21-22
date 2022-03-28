@@ -1,0 +1,118 @@
+#----------------------------------------------------------
+# THIS CLOCK IS NOT USED IN THE 2016/2017 final project
+#
+#NET "clockext100MHz" TNM_NET = "clock100M";
+#TIMESPEC "TS_clock_100_MHz" = PERIOD "clock100M" 10 ns HIGH 50 %;
+#----------------------------------------------------------
+
+NET "BIT_CLK" TNM_NET = "clock_freq";
+TIMESPEC "TS_clock_freq" = PERIOD "clock_freq" 5 ns HIGH 50 %;
+
+
+#NET PMOD1  OFFSET = OUT 0.3 ns AFTER clock;
+#NET PMOD2  OFFSET = OUT 0.3 ns AFTER clock;
+#NET PMOD3  OFFSET = OUT 0.3 ns AFTER clock;
+#NET PMOD4  OFFSET = OUT 0.3 ns AFTER clock196M;
+#NET PMOD7  OFFSET = OUT 0.3 ns AFTER clock;
+#NET PMOD8  OFFSET = OUT 0.3 ns AFTER clock;
+#NET PMOD9  OFFSET = OUT 0.3 ns AFTER clock;
+#NET PMOD10 OFFSET = OUT 0.3 ns AFTER clock;
+
+#TIMEGRP "pmod_group"  = FFS("PMOD*") EXCEPT "PMOD4";
+#TIMEGRP "pmod4_group" = FFS("PMOD4");
+#TIMEGRP "clock_group" = NET "clock";
+
+#TIMESPEC "TSPMOD"  = FROM "clock" TO "pmod_group" 0.6;
+#TIMESPEC "TSPMOD4" = FROM "clock" TO "pmod4_group" 0.2;
+
+
+net clockext100MHz loc = "L15";
+net reset_n loc = "T15";
+
+
+
+NET sw0 LOC = "A10";
+NET sw1 LOC = "D14";
+NET sw2 LOC = "C14";
+NET sw3 LOC = "P15";
+NET sw4 LOC = "P12";
+NET sw5 LOC = "R5";
+NET sw6 LOC = "T5";
+NET sw7 LOC = "E4";
+
+NET ld0 LOC = "U18";
+NET ld1 LOC = "M14";
+NET ld2 LOC = "N14";
+NET ld3 LOC = "L14";
+NET ld4 LOC = "M13";
+net ld5 loc = "D4";
+net ld6 loc = "P16";
+net ld7 loc = "N12";
+
+NET btnu LOC = "N4";
+NET btnr LOC = "F6";
+NET btnd LOC = "P3";
+NET btnl LOC = "P4";
+NET btnc LOC = "F5";
+
+NET tx LOC = "B16";
+NET rx LOC = "A16";
+
+NET SDATA_IN LOC = "T18";
+NET SDATA_OUT LOC = "N16";
+NET SYNC LOC = "U17";
+NET BIT_CLK LOC = "L13";
+NET RESET_N LOC = "T17";
+
+NET PMOD1   LOC = "T3" | FAST;
+NET PMOD2   LOC = "R3" | FAST;
+NET PMOD3   LOC = "P6" | FAST;
+NET PMOD4   LOC = "N5" | FAST;
+NET PMOD7   LOC = "V9" | FAST;
+NET PMOD8   LOC = "T9" | FAST;
+NET PMOD9   LOC = "V4" | FAST;
+NET PMOD10  LOC = "T4" | FAST;
+
+NET  VHDC1P  LOC =  "U16";   
+NET  VHDC2P  LOC =  "U15";  
+NET  VHDC3P  LOC =  "U13";  
+NET  VHDC4P  LOC =  "M11";  
+NET  VHDC5P  LOC =  "R11";  
+NET  VHDC6P  LOC =  "T12";  
+NET  VHDC7P  LOC =  "N10";  
+NET  VHDC8P  LOC =  "M10";  
+NET  VHDC9P  LOC =  "U11";  
+NET  VHDC10P LOC =  "R10";  
+                    
+NET  VHDC1N  LOC =  "V16";  
+NET  VHDC2N  LOC =  "V15";  
+NET  VHDC3N  LOC =  "V13";  
+NET  VHDC4N  LOC =  "N11";  
+NET  VHDC5N  LOC =  "T11";  
+NET  VHDC6N  LOC =  "V12";  
+NET  VHDC7N  LOC =  "P11";  
+NET  VHDC8N  LOC =  "N9" ;  
+NET  VHDC9N  LOC =  "V11";  
+NET  VHDC10N LOC =  "T10"; 
+                    
+NET  VHDC11P LOC =  "U10";  
+NET  VHDC12P LOC =   "R8"; 
+NET  VHDC13P LOC =   "M8"; 
+NET  VHDC14P LOC =   "U8"; 
+NET  VHDC15P LOC =   "U7"; 
+NET  VHDC16P LOC =   "N7"; 
+NET  VHDC17P LOC =   "T6"; 
+NET  VHDC18P LOC =   "R7"; 
+NET  VHDC19P LOC =   "N6"; 
+NET  VHDC20P LOC =   "U5"; 
+                    
+NET  VHDC11N LOC =  "V10";
+NET  VHDC12N LOC =  "T8" ;
+NET  VHDC13N LOC =  "N8" ;
+NET  VHDC14N LOC =  "V8" ;
+NET  VHDC15N LOC =  "V7" ;
+NET  VHDC16N LOC =  "P8" ;
+NET  VHDC17N LOC =  "V6" ;
+NET  VHDC18N LOC =  "T7" ;
+NET  VHDC19N LOC =  "P7" ;
+NET  VHDC20N LOC =  "V5" ;

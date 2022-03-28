@@ -1,0 +1,12 @@
+#----------------------------------------------------------
+# XST clock constraint
+#
+#----------------------------------------------------------
+
+#NET "BIT_CLK" TNM_NET = "clock_freq";
+#TIMESPEC "TS_clock_freq" = PERIOD "clock_freq" 81 ns HIGH 50 %;
+
+NET "BIT_CLK" TNM_NET = "clock_freq";
+# NET "clock" TNM_NET = "clock_freq";
+TIMESPEC "TS_clock_freq"=PERIOD "clock_freq" 8 ns;
+

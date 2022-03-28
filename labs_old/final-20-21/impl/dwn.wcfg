@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/lab/impl/s6base_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="s6base_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/s6base_tb/s6base_top_1/psdi_dsp_1/downsample_right/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/s6base_tb/s6base_top_1/psdi_dsp_1/downsample_right/endatain" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">endatain</obj_property>
+      <obj_property name="ObjectShortName">endatain</obj_property>
+   </wvobject>
+   <wvobject fp_name="/s6base_tb/s6base_top_1/psdi_dsp_1/downsample_right/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/s6base_tb/s6base_top_1/psdi_dsp_1/downsample_right/Nfreq" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Nfreq[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Nfreq[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/s6base_tb/s6base_top_1/psdi_dsp_1/downsample_right/datain" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">datain[17:0]</obj_property>
+      <obj_property name="ObjectShortName">datain[17:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/s6base_tb/s6base_top_1/psdi_dsp_1/downsample_right/temp_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">temp_reg[17:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_reg[17:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/s6base_tb/s6base_top_1/psdi_dsp_1/downsample_right/dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dataout[17:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[17:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/s6base_tb/s6base_top_1/psdi_dsp_1/downsample_right/endataout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">endataout</obj_property>
+      <obj_property name="ObjectShortName">endataout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/s6base_tb/s6base_top_1/psdi_dsp_1/downsample_right/counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counter[4:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/s6base_tb/s6base_top_1/psdi_dsp_1/downsample_right/state" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/s6base_tb/s6base_top_1/psdi_dsp_1/downsample_right/new_freq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">new_freq</obj_property>
+      <obj_property name="ObjectShortName">new_freq</obj_property>
+   </wvobject>
+</wave_config>

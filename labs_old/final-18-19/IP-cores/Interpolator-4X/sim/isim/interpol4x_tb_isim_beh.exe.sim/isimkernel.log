@@ -1,0 +1,29 @@
+Command line:
+   interpol4x_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50822
+
+Wed Nov 28 17:39:56 2018
+
+
+ Elaboration Time: 0.109201 sec
+
+ Current Memory Usage: 1163.17 Meg
+
+ Total Signals          : 19
+ Total Nets             : 53
+ Total Signal Drivers   : 11
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 22
+ Total Traceable Variables  : 46
+ Total Scalar Nets and Variables : 93135
+Total Line Count : 137
+
+ Total Simulation Time: 0.343202 sec
+
+ Current Memory Usage: 848.56 Meg
+
+Wed Nov 28 17:42:03 2018
+

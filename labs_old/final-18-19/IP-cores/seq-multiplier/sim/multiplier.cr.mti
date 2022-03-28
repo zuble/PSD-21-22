@@ -1,0 +1,8 @@
+D:/usr/jca/GoogleFEUP/FEUP/Aulas/2018-2019/PSDI-1819/Labs/Lab3/IP-cores/seq-multiplier/src-verilog/seqmultNM.v {1 {vlog -work work -vopt -stats=none D:/usr/jca/GoogleFEUP/FEUP/Aulas/2018-2019/PSDI-1819/Labs/Lab3/IP-cores/seq-multiplier/src-verilog/seqmultNM.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module seqmultNM
+
+Top level modules:
+	seqmultNM
+
+} {} {}}

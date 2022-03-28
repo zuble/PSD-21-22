@@ -1,0 +1,15 @@
+C:/Users/pgs/Documents/psdi/fm/src/verilog-rtl/dds.v {1 {vlog -work work -stats=none C:/Users/pgs/Documents/psdi/fm/src/verilog-rtl/dds.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module dds
+
+Top level modules:
+	dds
+
+} {} {}} C:/Users/pgs/Documents/psdi/fm/src/verilog-tb/dds_tb.v {1 {vlog -work work -stats=none C:/Users/pgs/Documents/psdi/fm/src/verilog-tb/dds_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module dds_testbench
+
+Top level modules:
+	dds_testbench
+
+} {} {}}
