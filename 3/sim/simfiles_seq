@@ -1,0 +1,2 @@
+../src/verilog/rtl/seq_psdsqrt.v
+../src/verilog/testbench/seq_tb.v

@@ -80,7 +80,7 @@ begin
 	if(reset)
 		xr <= 0;
 	else 	if(enable)
-
+				$display("helo");
 				if (start) xr <= x;
 				else if (yr[33])
 						xr <= xr - (yr >>> count_out);
