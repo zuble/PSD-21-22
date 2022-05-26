@@ -122,11 +122,12 @@ module rec2pol41(
 				output signed [31:0] angle_res // Angle in degrees, 8Q24
 
 );
+
 real fracfactorangle = 1<<24;
 reg signed [31:0] x_temp;
-//reg start_out;
 wire signed [31:0] angle_temp_1;
 reg signed [31:0] angle_temp_2;
+
 rec2pol rec2pol_orig(
 		.clock(clock),
 		.enable(enable),
@@ -138,38 +139,31 @@ rec2pol rec2pol_orig(
 		.angle(angle_temp_1)
 );
 
+//conversao para positivo e envio numero para rec2pol
 always @(posedge start)
 begin
 	if(x_in < 0)
 		begin
 			x_temp = {-1*x_in[31:15], x_in[14:00]};
-			//x_temp = -x_in;
-			/*start_out = 1;
-			@(posedge clock);
-			@(negedge clock);
-			start_out = 0;*/
 		end
 	else
 		begin
 			x_temp = x_in;
-			/*start_out = 1;
-			@(posedge clock);
-			@(negedge clock);
-			start_out = 0;*/
 		end
 end
 
+//+- 90graus caso x seja negativo
 always @(*)
 begin
-	if (x_in < 0 && y_in > 0)
+	if (x_in < 0 && y_in > 0)	//2Q
 		begin
 			angle_temp_2 = angle_temp_1 + (fracfactorangle * 90);
 		end
-	else	if(x_in < 0 && y_in < 0)
+	else	if(x_in < 0 && y_in < 0) //3Q
 			begin
 				angle_temp_2 = angle_temp_1 - (fracfactorangle * 90);
 			end
-	else angle_temp_2 = angle_temp_1;
+	else angle_temp_2 = angle_temp_1; //1Q + 4Q
 end
 
 assign angle_res = angle_temp_2;
