@@ -110,7 +110,7 @@ always @(posedge clock)
 begin
 	if(reset)
 		zr <= 0;
-	else if(enable)
+	else	if(enable)
 
 				if (start) zr <= 32'b0;
 				else if (yr[33])

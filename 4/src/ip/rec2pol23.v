@@ -33,9 +33,7 @@
 	
 */
 
-
-module rec2pol( 
-                input clock,
+module rec2pol( input clock,
 				input reset,
 				input enable,              // set and keep high to enable iteration
 				input start,               // set to 1 for one clock to start 
@@ -44,9 +42,8 @@ module rec2pol(
 				output signed [31:0] mod,  // Modulus, 16Q16
 				output signed [31:0] angle // Angle in degrees, 8Q24
 			  );
-			  
-			   
-// ADD YOUR CODE HERE	
+
+
 
 wire signed [5:0]	count_out;
 reg signed [33:0]	yr;
@@ -74,15 +71,15 @@ ATAN_ROM ATAN_ROM_1(
 			.data(ATAN_data)
 );
 
-//yr[33] - sign bit
+/* xr */
 always @(posedge clock)
 begin	
 	if(reset)
 		xr <= 0;
 	else 	if(enable)
-				$display("helo");
+
 				if (start) xr <= x;
-				else if (yr[33])
+				else if (yr[33])	//yr[33] - sign bit
 						xr <= xr - (yr >>> count_out);
 					else
 						xr <= xr + (yr >>> count_out);
@@ -90,7 +87,7 @@ begin
 			// xr <= start ? x : (yr[33] ? xr - (yr >>> count_out) : xr + (yr >>> count_out));
 end
 
-
+/* yr */
 always @(posedge clock)
 begin
 	if(reset)
@@ -106,21 +103,95 @@ begin
 			// yr <= start ? y : (yr[33] ? yr + (xr >>> count_out) : yr - (xr >>> count_out));
 end
 
+/* zr */
 always @(posedge clock)
 begin
 	if(reset)
 		zr <= 0;
-	else if(enable)
+	else	if(enable)
 
-				if (start) zr <= 32'b0;
+				if (start) 
+                    begin 
+                        zr <= 32'b0; //=32bits0
+                        $display("zr@start = %d",zr);
+                    end
 				else if (yr[33])
 						zr <= zr - (ATAN_data);
 					else
 						zr <= zr + (ATAN_data);
 			// zr <= start ? 32'b0 : (yr[33] ? zr - (ATAN_data) : zr + (ATAN_data));
+				
 end
 
 assign angle = zr; 
 
-endmodule
-// end of module rec2pol
+endmodule //rec2pol
+
+/*************************************/
+
+module rec2pol23(	input clock,
+					input reset,
+					input enable,              // set and keep high to enable iteration
+					input start,               // set to 1 for one clock to start 
+					input  signed [31:0] x_in,    // X component, 16Q16
+					input  signed [31:0] y_in,    // Y component, 16Q16
+					output signed [31:0] mod_res,  // Modulus, 16Q16
+					output signed [31:0] angle_res // Angle in degrees, 8Q24
+
+);
+
+
+real fracfactorangle = 1<<24;
+reg signed [31:0] x_orig;
+wire signed [31:0] angle_temp_1;
+reg signed [31:0] angle_temp_2;
+
+
+rec2pol rec2pol_orig(
+        .clock(clock),
+        .enable(enable),
+        .reset(reset),
+        .start(start),
+        .x(x_orig),
+        .y(y_in),
+        .mod(mod_res),
+        .angle(angle_temp_1)
+);
+
+// 	x/x_orig sempre positivo
+always @(posedge start)
+begin
+	if(x_in < 0)
+		begin
+			//x_orig = {-1*x_in[31:15], x_in[14:00]};
+			x_orig = -x_in ;
+		end
+	else
+		begin
+			x_orig = x_in;
+		end
+end
+
+
+//	+- 90graus caso x/x_orig seja negativo
+always @(*)
+begin
+
+    //$display("%d",CLOCK);
+
+	if (x_in < 0 && y_in > 0)	//2Q
+		begin
+			$display("2Q %d",angle_temp_1/fracfactorangle);	
+			angle_temp_2 = angle_temp_1 + (fracfactorangle * 90);
+		end
+	else	if(x_in < 0 && y_in < 0) //3Q
+			begin
+				$display("3Q %d",angle_temp_1/fracfactorangle);	
+				angle_temp_2 = angle_temp_1 - (fracfactorangle * 90);
+			end
+	else angle_temp_2 = angle_temp_1; //1Q + 4Q
+end
+
+assign angle_res = angle_temp_2;
+
+endmodule //rec2pol23

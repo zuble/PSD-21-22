@@ -1,2 +1,7 @@
-../src/verilog/rtl/reg_banq_org.v
-../src/verilog/rtl/alu_org.v
+../src/rtl/reg_banq.v
+../src/rtl/alu.v
+
+../src/ip/sum.v
+
+
+../src/testbench/tb.v

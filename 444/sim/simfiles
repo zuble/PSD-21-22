@@ -1,0 +1,11 @@
+../src/rtl/reg_bank.v
+../src/rtl/alu.v
+../src/rtl/cmplxMult.v
+../src/rtl/cmplxDiv.v
+
+../src/rtl/rec2pol.v
+../src/ip/ATAN_ROM.v
+../src/ip/ITERCOUNTER.v
+../src/ip/MODSCALE.v
+
+../src/testbench/tb.v
